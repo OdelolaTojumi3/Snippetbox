@@ -13,7 +13,7 @@
 type application struct {
 	errorLog *log.Logger
 	infoLog *log.Logger
-	snippets *models.SnippetModels
+	snippets *models.SnippetModel
 }
  
 func main() {
